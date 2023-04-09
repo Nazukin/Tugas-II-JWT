@@ -1,0 +1,11 @@
+GET http://localhost:301/data
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjpbeyJpZCI6MSwidXNlcm5hbWUiOiJqb2huX2RvZSIsInBhc3N3b3JkIjoicmFoYXNpYSJ9XSwiaWF0IjoxNjgxMDQ5NjU3fQ.K56znrp-_2EevQ5V9PRyZ3dFk9sKOnOAIRKHfyqcw2w
+###
+
+POST http://localhost:301/login
+Content-Type: application/json
+
+{
+    "username": "john_doe",
+    "password": "rahasia"
+}
